@@ -5,7 +5,7 @@ REQUIREMENTS_FILE="projet/requirements.txt"
 pip install -r "$REQUIREMENTS_FILE"
 
 # Navigate to the directory containing manage.py
-cd projet/projet
+cd projet
 
 # Collect static files
 python manage.py collectstatic --no-input
