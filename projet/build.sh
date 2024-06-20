@@ -1,5 +1,5 @@
 set -o errexit
-REQUIREMENTS_FILE="venv/requirements.txt"
+REQUIREMENTS_FILE="projet/venv/requirements.txt"
 
 # Install dependencies from requirements.txt
 pip install -r "$REQUIREMENTS_FILE"
